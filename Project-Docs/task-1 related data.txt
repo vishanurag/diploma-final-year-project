@@ -1,0 +1,36 @@
+BASIC DETAILS BY USER:
+
+No. of Pages:- 3
+Page 1:- Home
+Page 2:- Our Services
+Page 3:- Contact Us
+
+
+USER PROMPT:
+
+I am the owner of a fortune shop (grosery store), My shop name is SubkiDuan. There is always discounts available for our regular costumers, also we provides verities of services, including home delevery, product borrowing facilities. Location:- New Prem Nagar, Hazira, Gwalior, India. Contact Details:- 9787384584 (whatsapp), Email Us:- xxxx+elon-m@x.com available 24*7.
+
+
+
+
+
+OUTPUT BY CHATGPT 3.5 TURBO API:
+
+
+Location-
+
+If you're looking for a convenient and reliable fortune shop in Gwalior, India, look no further than SubkiDuan. Located in New Prem Nagar, Hazira, our store offers a variety of discounts for regular customers and services such as home delivery and product borrowing facilities. Contact us at 9787384584 (WhatsApp) or email us at elon-m@x.com for all your grocery needs. We are available 24/7 to serve you better.
+
+
+Our Services-
+
+Welcome to SubkiDuan, your one-stop shop for all your grocery needs in New Prem Nagar, Hazira, Gwalior, India. We offer a wide variety of products and services, including discounts for our regular customers, home delivery, and product borrowing facilities. Contact us at 9787384584 (WhatsApp) or email us at xxxx elon-m@x.com for more information. We are available 24/7 to serve you better. Shop with us and experience convenience like never before!
+
+
+Home-
+
+Welcome to SubkiDuan, your one-stop shop for all your grocery needs! Located in New Prem Nagar, Hazira, Gwalior, India, we offer a wide variety of products and services to make your shopping experience convenient and enjoyable. As a valued customer, you can enjoy discounts, home delivery options, and even product borrowing facilities. Contact us at 9787384584 on Whatsapp or email us at elon-m@x.com for 24/7 assistance. Visit us today and experience the convenience of shopping at SubkiDuan!
+
+
+
+
