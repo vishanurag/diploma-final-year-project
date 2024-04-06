@@ -4,8 +4,257 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="./src/bootstrap/css/bootstrap.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+        .lobster-regular {
+          font-family: "Lobster", sans-serif;
+          font-weight: 400;
+          font-style: normal;
+        }
+
+        .orbitron-simple {
+          font-family: "Orbitron", sans-serif !important;
+          font-optical-sizing: auto;
+          font-weight: 400;
+          font-style: normal;
+        }
+
+        @media screen and (min-width: 770px) {
+          .w-md-50 {
+            width: 50% !important;
+          }
+          .w-md-40 {
+            width: 40% !important;
+          }
+
+          .hero-section {
+            min-height: 80vh !important;
+          }
+
+          .paper-cut-look {
+            clip-path: polygon(61% 12%, 66% 0, 100% 0, 100% 100%, 0 100%, 0 13%);
+
+            /* clip-path: polygon(63% 14%, 70% 0%, 100% 0, 100% 86%, 32% 87%, 26% 100%, 0 100%, 0 15%); */
+          }
+        }
+        @media screen and (max-width: 1400px) {
+          .hero-section-main-btns .btn {
+            width: 100% !important;
+          }
+        }
+
+
+
+
+        body {
+            --bg-default-indigo: #d8e6ed;
+        }
+        .bg-default-indigo {
+          background-color: var(--bg-default-indigo) !important;
+        }
+
+        .brand-slogen-navbar {
+          font-size: small !important;
+        }
+
+        .social-acc-links, .social-acc-links img {
+          width: 30px !important;
+          height: 29px !important;
+        }
+
+        
+
+    </style>
+
 </head>
-<body>
-    Testing purpose only...
+<body class="bg-default-indigo">
+
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg pt-3">
+        <div class="container">
+          <a class="navbar-brand d-flex flex-column align-items-start justify-content-center gap-0" href="#">
+            <div class="p-0  h2 lobster-regular" > DiAIGen...</div>
+            <span class=" pt-0  orbitron-simple brand-slogen-navbar">An AI Based Website Builder.</span>
+            
+          </a>
+          <div class="shadow">
+            <button class="navbar-toggler collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+              </button>
+          </div>
+          <div class="navbar-collapse collapse  d-lg-flex justify-content-end" id="navbarNav" >
+            <ul class="navbar-nav ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item ">
+                <a href="./" class="btn btn-outline-dark mx-2">Sign In</a>
+                <a href="./" class="btn btn-dark mx-2">Sign Up</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- NavBar -->
+
+    <div class="hero-section my-5 container  border-bottom border-info pb-5 d-flex flex-column-reverse flex-md-row align-items-center justify-content-between w-100 flex-wrap">
+      <div class="hero-left w-100 w-md-50">
+        <h2 class="h2 orbitron-simple fw-bold">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, iure 
+        </h2>
+        <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus veniam doloremque, ad, inventore vel, recusandae natus exercitationem reprehenderit in facilis rerum dolorem eum modi ratione nostrum itaque? Fuga, quidem reprehenderit.</p>
+
+        <div class="hero-section-main-btns w-100 d-flex justify-content-start ">
+          <a class="btn  btn-dark w-25 m-2 py-3 d-flex align-items-center  justify-content-center fw-bold fs-5 " href="#">Sign Up Now</a>
+          <a class="btn btn-light w-25 m-2 d-flex align-items-center justify-content-start gap-2" href="#">
+            <img src="./src/assets/images/Play-Store.webp" class="w-25 " alt="Play-Store">
+            <span>Get  it on <br><b>Play Store</b></span>
+          </a>
+        </div>
+      </div>
+      <div class="hero-right w-100 w-md-50">
+        <img src="./src/assets/images/hero-img.png" class="w-100" alt="">
+      </div>
+    </div>
+
+    <div class="container about-us-section">
+      <div class="section-headings h1 orbitron-simple fw-bold">
+        About Us
+      </div>
+
+      <div class="about-us-hero-section py-5 mt-md-5 d-flex flex-column flex-md-row justify-content-between align-items-center">
+        <div class="about-us-left w-100 w-md-40">
+          <img src="./src/assets/images/mobiles-img.png" class="w-100" alt="About-Us-image">
+          
+        </div>
+        <div class="about-us-right w-100 w-md-50">
+          <div class="about-us-parts">
+            <div class="h2 fw-bold orbitron-simple">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, doloribus? Iusto libero 
+            </div>
+            <p class="small">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit laboriosam voluptate sit non dolor? Magnam voluptate odit eaque maiores obcaecati, laboriosam unde! Facere amet sapiente voluptatem veritatis eaque eligendi quod!
+            </p>
+          </div>
+          <div class="about-us-parts">
+            <div class="h2 fw-bold orbitron-simple">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, doloribus? Iusto libero 
+            </div>
+            <p class="small">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit laboriosam voluptate sit non dolor? Magnam voluptate odit eaque maiores obcaecati, laboriosam unde! Facere amet sapiente voluptatem veritatis eaque eligendi quod!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="our-services-section paper-cut-look  bg-light py-3 container-fluid shadow rounded ">
+      <div class="  py-md-3 mt-5 mt-md-1 section-headings h1 orbitron-simple fw-bold w-100 d-flex justify-content-md-end justify-content-center align-items-center px-md-5">
+        Our Services
+      </div>
+      
+      <div class="about-us-hero-section container py-5 mt-md-5 d-flex flex-column-reverse flex-md-row justify-content-between align-items-center">
+        
+        <div class="about-us-right w-100 w-md-50">
+          <div class="about-us-parts">
+            <div class="h2 fw-bold orbitron-simple">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, doloribus? Iusto libero 
+            </div>
+            <p class="small">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit laboriosam voluptate sit non dolor? Magnam voluptate odit eaque maiores obcaecati, laboriosam unde! Facere amet sapiente voluptatem veritatis eaque eligendi quod!
+            </p>
+          </div>
+          <div class="about-us-parts">
+            <div class="h2 fw-bold orbitron-simple">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, doloribus? Iusto libero 
+            </div>
+            <p class="small">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit laboriosam voluptate sit non dolor? Magnam voluptate odit eaque maiores obcaecati, laboriosam unde! Facere amet sapiente voluptatem veritatis eaque eligendi quod!
+            </p>
+          </div>
+        </div>
+        <div class="about-us-left w-100 w-md-40">
+          <img src="./src/assets/images/hero-img.png" class="w-100" alt="About-Us-image">
+          
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="bg-light">
+      <div class="container-fluid paper-cut-look bg-black text-light rounded pt-5 pb-3">
+        <div class="py-md-5 my-md-5"></div>
+        <footer class="w-100 d-flex flex-column flex-md-row justify-content-evenly align-items-center gap-5">
+          <div class="footer-left">
+            <div class="brand-info">
+              <h1 class="h1 lobster-regular">
+                DiAIGen...
+              </h1>
+              <p class="orbitron-simple">An AI Based Website Builder.</p>
+              <div class="social-accounts d-flex w-25 align-items-center justify-content-start gap-3">
+                <a class="social-acc-links btn rounded-circle bg-light w-25 p-0 d-flex align-items-center justify-content-center" id="github">
+                  <img src="./src/assets/images/github.jpeg" class="w-100 rounded-circle" alt="Links">
+                </a>
+                <a class="social-acc-links btn rounded-circle bg-light w-25 p-0 d-flex align-items-center justify-content-center" id="email">
+                  <img src="./src/assets/images/linkedin.webp" class="w-100 rounded-circle" alt="Links">
+                </a>
+                <a class="social-acc-links btn rounded-circle bg-light w-25 p-0 d-flex align-items-center justify-content-center" id="linkedin">
+                  <img src="./src/assets/images/gmail.png" class="w-100 rounded-circle" alt="Links">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-mid">
+            <h2 class="h2 orbitron-simple">
+              Important Links
+            </h2>
+            <div class="all-important-links">
+              <a href="" class="nav-link">Links Here</a>
+              <a href="" class="nav-link">Links Here</a>
+              <a href="" class="nav-link">Links Here</a>
+              <a href="" class="nav-link">Links Here</a>
+              <a href="" class="nav-link">Links Here</a>
+            </div>
+
+          </div>
+          <div class="footer-right">
+            <h2 class="h2 orbitron-simple">
+              Get In Touch
+            </h2>
+            <form action="" method="post" class="d-flex flex-column justify-content-center align-items-center">
+              <div class="input-boxes d-flex flex-column justify-content-center gap-2">
+                <label for="name-box">
+                  <input type="text" id="name-box" class="form-control" placeholder="Your Name">
+                </label>
+                <label for="name-box">
+                  <input type="email" id="email-box" class="form-control" placeholder="user@email.com">
+                </label>
+                <label for="message-box">
+                  <textarea type="text" id="message-box" class="form-control" placeholder="Your Message here..."></textarea>
+                </label>
+              </div>
+              <button type="submit" class="btn btn-primary align-self-start my-3 mx-1">Submit</button>
+            </form>
+          </div>
+        </footer>
+
+        <p class="small text-center mt-5 pt-2">
+          This website is a project build by Anurag Vishwakarma, Anuj Gupta & Aditya Bisht as a Final Year Project in Department of Computer Science & Engineering with the guidence of Dr. Saurabh Khare.
+        </p>
+      </div>
+    </div>
+
+
+<script src="./src/bootstrap/js/bootstrap.bundle.min.js" defer ></script>
 </body>
 </html>
+
+
