@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+*{
+  transition: all 0.2s linear;
+}
+
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.orbitron-simple {
+  font-family: "Orbitron", sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+
+
+body {
+    --bg-default-indigo: #d8e6ed;
+}
+.bg-default-indigo {
+  background-color: var(--bg-default-indigo) !important;
+}
+
+.header-logo {
+  width: 80px !important;
+}
+
+.brand-slogen-navbar {
+  font-size: small !important;
+}
+
+.social-acc-links, .social-acc-links img {
+  width: 30px !important;
+  height: 29px !important;
+}
+
+
+/* Sign In & Sign Up pages minor styles */
+.sign-in-up-box {
+  width: 30vw !important;
+  min-width: 350px !important;
+}
+/* Sign In & Sign Up pages minor styles */
+
+
+
+/* Media Queries of the website */
+@media screen and (min-width: 770px) {
+  .w-md-50 {
+    width: 50% !important;
+  }
+  .w-md-40 {
+    width: 40% !important;
+  }
+
+  .hero-section {
+    min-height: 80vh !important;
+  }
+
+  .paper-cut-look {
+    clip-path: polygon(61% 12%, 66% 0, 100% 0, 100% 100%, 0 100%, 0 13%);
+  }
+}
+@media screen and (max-width: 1400px) {
+  .hero-section-main-btns .btn {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .header-logo {
+    width: 50px !important;
+  }
+  #circle-ball-2 {
+    display: none !important;
+}
+}
