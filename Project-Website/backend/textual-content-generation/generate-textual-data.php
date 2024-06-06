@@ -83,7 +83,7 @@ $prompt = "";
         <div class="loading d-flex w-100 align-items-center justify-content-center flex-column" id="loading">
             <div class="loading-box  d-flex  align-items-center justify-content-center rounded-circle"></div>
         </div>
-        <h1 class="h1 fs-1 text-info mt-2">awrer</h1>
+        <h1 class="h1 fs-1 text-info mt-2">Generating the Website for you...</h1>
     </div>
     <div class="images-box" id="result-box"></div>
  </div>
