@@ -34,7 +34,7 @@
                 echo '<a class="btn btn-outline-danger mx-2" href="./sign-out.php">Sign Out</a> <a class="btn rounded-circle border shadow mx-2 p-1" href="./profile.php"><img src="./src/assets/images/user-icon.png" width="30" class="rounded-circle border"></a>';
               } else {
                 ?>
-              <a href="./sign-in.php" class="btn btn-outline-dark mx-2">Sign In</a>
+              <a href="./sign-in.php" class="btn btn-outline-dark mx-2" style="background: linear-gradient(135deg, #A0522D, #B0E57C); color: #fff; border: none; padding: 12px 24px; font-size: 16px; font-weight: bold; border-radius: 8px; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.2); transition: transform 0.2s ease, box-shadow 0.2s ease; >Login</a>
               <a href="./sign-up.php" class="btn btn-dark mx-2">Sign Up</a>
                 <?php
               }
